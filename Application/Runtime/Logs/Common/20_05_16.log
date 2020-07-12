@@ -1,0 +1,60 @@
+[ 2020-05-16T16:14:04+08:00 ] 127.0.0.1 /Category/index/id/images/list_hot1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000463s ]
+
+[ 2020-05-16T16:14:04+08:00 ] 127.0.0.1 /Category/index/id/images/list_hot3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+
+[ 2020-05-16T16:14:04+08:00 ] 127.0.0.1 /Category/index/id/images/list_hot2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2020-05-16T16:14:04+08:00 ] 127.0.0.1 /Category/index/id/images/hpG4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+
+[ 2020-05-16T16:14:04+08:00 ] 127.0.0.1 /Category/index/id/images/acer4739.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+
+[ 2020-05-16T16:14:04+08:00 ] 127.0.0.1 /Category/index/id/images/crazy4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+
+[ 2020-05-16T16:14:26+08:00 ] 127.0.0.1 /Category/index/id/images/list_hot1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+
+[ 2020-05-16T16:14:26+08:00 ] 127.0.0.1 /Category/index/id/images/list_hot2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+
+[ 2020-05-16T16:14:26+08:00 ] 127.0.0.1 /Category/index/id/images/list_hot3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+
+[ 2020-05-16T16:14:26+08:00 ] 127.0.0.1 /Category/index/id/images/hpG4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000476s ]
+
+[ 2020-05-16T16:14:26+08:00 ] 127.0.0.1 /Category/index/id/images/crazy4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+
+[ 2020-05-16T16:14:26+08:00 ] 127.0.0.1 /Category/index/id/images/acer4739.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+

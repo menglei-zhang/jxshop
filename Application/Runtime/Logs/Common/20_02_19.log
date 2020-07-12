@@ -1,0 +1,55 @@
+[ 2020-02-19T20:26:04+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:35+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:35+08:00 ] 127.0.0.1 /Goods/index/goods_id/__PUBLI_HOME__/images/relate_view1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:35+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:35+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:35+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2020-02-19T20:29:35+08:00 ] 127.0.0.1 /Public/Home/images/zoomloader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:39+08:00 ] 127.0.0.1 /Goods/index/goods_id/__PUBLI_HOME__/images/relate_view1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:39+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:39+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-19T20:29:39+08:00 ] 127.0.0.1 /Goods/index/goods_id/images/relate_view4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,48 @@
+<extend name="Public:base"/>
+<title>ECSHOP 管理中心 - 管理员修改 </title>
+<block name="header">
+    <span class="action-span"><a href="{:U('add')}">添加新管理员</a></span>
+    <span class="action-span1"><a href="">ECSHOP 管理中心</a></span>
+    <span id="search_id" class="action-span1"> - 管理员列表 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>编号</th>
+                <th>用户名称</th>
+                <th>角色名称</th>
+                <th>操作</th>
+            </tr>
+            <volist name="data.list" id="vo">
+                <tr>
+                    <td align="center">{$vo.id}</td>
+                    <td align="center"><span>{$vo.username}</span></td>
+                    <td align="center"><span>{$vo.role_name}</span></td>
+                    <gt name="vo.id" value="1">
+                        <td align="center">
+                            <a href="{:U('edit','admin_id='.$vo['id'])}" title="编辑">编辑</a>
+                            <a href="{:U('dels','admin_id='.$vo['id'])}" title="删除">删除</a>
+                        </td>
+                    </gt>
+                </tr>
+            </volist>
+        </table>
+
+        <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                    {$data.pageStr}
+                </td>
+            </tr>
+        </table>
+        <!-- 分页结束 -->
+    </div>
+</block>
+<div id="footer">
+共执行 7 个查询，用时 0.028849 秒，Gzip 已禁用，内存占用 3.219 MB<br />
+版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。
+</div>

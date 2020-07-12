@@ -1,0 +1,410 @@
+[ 2020-05-09T10:18:04+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2020-05-09T10:20:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2020-05-09T10:57:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2020-05-09T11:00:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0042s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0049s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1588993250 and end > 1588993250 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2020-05-09T11:01:02+08:00 ] 127.0.0.1 /user/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2020-05-09T11:01:02+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000440s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2020-05-09T11:01:18+08:00 ] 127.0.0.1 /User/regist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username = 'admin' ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: INSERT INTO `jx_user` (`username`,`password`,`salt`) VALUES ('admin','715c3b85a67bbf70e873676c0e8bea32','982102') [ RunTime:0.0011s ]
+
+[ 2020-05-09T11:01:20+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000422s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008771s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2020-05-09T11:01:20+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2020-05-09T11:01:33+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+
+[ 2020-05-09T11:01:37+08:00 ] 127.0.0.1 /User/code.html?date=1588993297276
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000423s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000659s ]
+
+[ 2020-05-09T11:01:43+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/www/jxshop/Application/Home/Model/UserModel.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/www/jxshop/Application/Home/Model/CartModel.class.php 第 83 行.
+
+[ 2020-05-09T11:01:43+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1588993303 and end > 1588993303 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015815s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+
+[ 2020-05-09T11:23:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000655s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1588994599 and end > 1588994599 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2020-05-09T11:23:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1588994600 and end > 1588994600 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2020-05-09T14:16:11+08:00 ] 127.0.0.1 /user/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+
+[ 2020-05-09T14:16:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000420s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1589004971 and end > 1589004971 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015772s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2020-05-09T14:16:13+08:00 ] 127.0.0.1 /user/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006440s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2020-05-09T14:16:13+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2020-05-09T14:16:26+08:00 ] 127.0.0.1 /User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000424s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_user` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant password - assumed 'password' /Applications/MAMP/www/jxshop/Application/Home/Model/UserModel.class.php 第 33 行.
+NOTIC: [2] Invalid argument supplied for foreach() /Applications/MAMP/www/jxshop/Application/Home/Model/CartModel.class.php 第 83 行.
+
+[ 2020-05-09T14:16:26+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1589004986 and end > 1589004986 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000429s ]
+
+[ 2020-05-09T14:17:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1589005060 and end > 1589005060 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014738s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+

@@ -1,0 +1,33 @@
+[ 2020-05-18T16:28:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0033s ]
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [8] Use of undefined constant ture - assumed 'ture' /Applications/MAMP/www/jxshop/Application/Admin/Model/CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) /Applications/MAMP/www/jxshop/Application/Admin/Model/GoodsModel.class.php 第 344 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0047s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1589790518 and end > 1589790518 ) LIMIT 5   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+

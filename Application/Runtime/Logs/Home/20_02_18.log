@@ -1,0 +1,759 @@
+[ 2020-02-18T00:01:16+08:00 ] 127.0.0.1 /User/code.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:01:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1581955279 and end > 1581955279 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (2) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (3) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (9) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (7) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:01:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1581955279 and end > 1581955279 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (2) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (3) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (9) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (7) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2020-02-18T00:01:33+08:00 ] 127.0.0.1 /home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1581955293 and end > 1581955293 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (2) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (3) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (9) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (7) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:01:41+08:00 ] 127.0.0.1 /home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1581955301 and end > 1581955301 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (2) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (3) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (9) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (7) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8) ) LIMIT 8   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:01:49+08:00 ] 127.0.0.1 /Goods/index/goods_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0025s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id=2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:01:55+08:00 ] 127.0.0.1 /Cart/addCart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods_number` WHERE ( goods_id=2 and goods_attr_ids='471,475,478' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_cart` WHERE `user_id` = '1' AND `goods_id` = 2 AND `goods_attr_ids` = '471,475,478' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `jx_cart` (`user_id`,`goods_id`,`goods_attr_ids`,`goods_count`) VALUES ('1','2','471,475,478','4') [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:01:56+08:00 ] 127.0.0.1 /Goods/index/goods_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and id=2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_img` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods_img` WHERE ( goods_id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT a.*,b.attr_name,b.attr_type FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.goods_id=2 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:02:00+08:00 ] 127.0.0.1 /home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.id in (471,475,478) )  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: shop_price D:\wamp64\www\jxshop\Application\Home\Model\CartModel.class.php 第 139 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2020-02-18T00:03:17+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: UPDATE `jx_cart` SET `goods_count`='5' WHERE ( user_id=1 and goods_id=2 and goods_attr_ids='471,475,478' ) [ RunTime:0.0075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:03:17+08:00 ] 127.0.0.1 /Cart/updateCount.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: UPDATE `jx_cart` SET `goods_count`='6' WHERE ( user_id=1 and goods_id=2 and goods_attr_ids='471,475,478' ) [ RunTime:0.0075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:05:02+08:00 ] 127.0.0.1 /home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.id in (471,475,478) )  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: shop_price D:\wamp64\www\jxshop\Application\Home\Model\CartModel.class.php 第 139 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:05:29+08:00 ] 127.0.0.1 /Order/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0000s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.id in (471,475,478) )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: shop_price D:\wamp64\www\jxshop\Application\Home\Model\CartModel.class.php 第 139 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:05:55+08:00 ] 127.0.0.1 /Order/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: SHOW COLUMNS FROM `jx_order` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=1 )  [ RunTime:0.0025s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_attr` [ RunTime:0.0025s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.id in (471,475,478) )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: vlaue D:\wamp64\www\jxshop\Application\Home\Model\OrderModel.class.php 第 17 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SELECT a.attr_values,b.attr_name FROM jx_goods_attr a left join jx_attribute b on a.attr_id=b.id  WHERE ( a.id in (471,475,478) )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: shop_price D:\wamp64\www\jxshop\Application\Home\Model\CartModel.class.php 第 139 行.
+SQL: INSERT INTO `jx_order` (`user_id`,`total_price`,`name`,`address`,`tel`,`addtime`) VALUES ('1','48000','王','河南','15618151833','1581955555') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_order_goods` [ RunTime:0.0025s ]
+SQL: INSERT INTO `jx_order_goods` (`order_id`,`goods_id`,`goods_attr_ids`,`price`,`goods_count`) VALUES ('33','2','471,475,478','8000.00','6') [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0000s ]
+SQL: UPDATE `jx_goods` SET `goods_number`=goods_number-6 WHERE ( id=2 ) [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `jx_goods_number` [ RunTime:0.0000s ]
+SQL: UPDATE `jx_goods_number` SET `goods_number`=goods_number-6 WHERE ( goods_id=2 and goods_attr_ids='471,475,478' ) [ RunTime:0.0025s ]
+SQL: DELETE FROM `jx_cart` WHERE ( user_id=1 ) [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:05:56+08:00 ] 127.0.0.1 /home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1581955556 and end > 1581955556 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (2) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (3) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (9) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=5 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (7) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2020-02-18T00:08:05+08:00 ] 127.0.0.1 /home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0025s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_hot=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_rec=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and isdel=1 and is_new=1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale = 1 and cx_price > 0 and start < 1581955685 and end > 1581955685 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=1 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jx_goods` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (2) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (3) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (4) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (9) ) LIMIT 8   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=5 )  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category` WHERE ( parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category` WHERE ( isrec=1 and parent_id=6 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (7) ) LIMIT 8   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: tree D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 20 行.
+SQL: SELECT * FROM `jx_goods` WHERE ( is_sale=1 and cate_id in (8) ) LIMIT 8   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2020-02-18T00:08:07+08:00 ] 127.0.0.1 /home/cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SELECT * FROM `jx_category`  [ RunTime:0.0000s ]
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+NOTIC: [2] Use of undefined constant ture - assumed 'ture' (this will throw an Error in a future version of PHP) D:\wamp64\www\jxshop\Application\Admin\Model\CategoryModel.class.php 第 31 行.
+SQL: SELECT * FROM `jx_cart` WHERE ( user_id=1 )  [ RunTime:0.0050s ]
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_before_insert(&$data) should be compatible with Think\Model::_before_insert(&$data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+NOTIC: [2] Declaration of Admin\Model\GoodsModel::_after_insert($data) should be compatible with Think\Model::_after_insert($data, $options) D:\wamp64\www\jxshop\Application\Admin\Model\GoodsModel.class.php 第 0 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

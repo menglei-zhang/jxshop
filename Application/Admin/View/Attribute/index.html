@@ -1,0 +1,52 @@
+<extend name="Public:base"/>
+<title>ECSHOP 管理中心 - 商品列表 </title>
+<block name="header">
+    <span class="action-span"><a href="{:U('add')}">添加属性</a></span>
+    <span class="action-span1"><a href="">ECSHOP 角色中心</a></span>
+    <span id="search_id" class="action-span1"> - 属性列表 </span>
+    <div style="clear:both"></div>
+</block>
+<block name="body">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th style="width: 10%;">编号</th>
+                <th style="width: 10%;">属性名称</th style="width: 10%;">
+                <th style="width: 10%;">所属类型</th style="width: 10%;">
+                <th style="width: 10%;">属性类型</th style="width: 10%;">
+                <th style="width: 10%;">录入方式</th style="width: 10%;">
+                <th style="width: 40%;">默认值</th style="width: 10%;">
+                <th style="width: 10%;">操作</th style="width: 10%;">
+            </tr>
+            <volist name="data.list" id="vo">
+                <tr>
+                    <td style="text-align: center;">{$vo.id}</td>
+                    <td style="text-align: center;"><span>{$vo.attr_name}</span></td>
+                    <td style="text-align: center;"><span>{$vo.type_id}</span></td>
+                    <td style="text-align: center;"><span><eq name="vo.attr_type" value="1">唯一<else/>单选</eq></span></td>
+                    <td style="text-align: center;"><span><eq name="vo.attr_input_type" value="1">手工输入<else/>列表选择</eq></span></td>
+                    <td style="text-align: center;"><span>{$vo.attr_value}</span></td>
+                    <td style="text-align: center;">
+                        <a href="{:U('edit','attr_id='.$vo['id'])}" title="编辑">编辑</a>
+                        <a href="{:U('dels','attr_id='.$vo['id'])}" title="删除">删除</a>
+                    </td>
+                </tr>
+            </volist>
+        </table>
+
+        <!-- 分页开始 -->
+        <table id="page-table" cellspacing="0">
+            <tr>
+                <td width="80%">&nbsp;</td>
+                <td align="center" nowrap="true">
+                    {$data.pageStr}
+                </td>
+            </tr>
+        </table>
+        <!-- 分页结束 -->
+    </div>
+</block>
+<div id="footer">
+共执行 7 个查询，用时 0.028849 秒，Gzip 已禁用，内存占用 3.219 MB<br />
+版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。
+</div>
